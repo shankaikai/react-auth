@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login,
+.register {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.login input,
+.register input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.login button,
+.register button {
+  width: fit-content;
+  align-self: center;
+  margin: 5px;
+  cursor: pointer;
+}
